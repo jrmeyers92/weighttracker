@@ -1,26 +1,26 @@
 {
-  "name": "weighttracker",
-  "version": "1.0.0",
-  "description": "app to track weight",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "weight",
-    "tracker",
-    "app",
-    "BMI",
-    "fitness",
-    "weightloss",
-    "lose",
-    "weight",
-    "skinny",
-    "fat"
-  ],
-  "author": "Jake Meyers",
-  "license": "ISC",
-  "dependencies": {
-    "node-sass": "^5.0.0"
-  }
+	"name": "weighttracker",
+	"version": "1.0.0",
+	"description": "app to track weight",
+	"main": "script.js",
+	"scripts": {
+		"start": "node-sass sass/main.scss css/style.css -w"
+	},
+	"keywords": [
+		"weight",
+		"tracker",
+		"app",
+		"BMI",
+		"fitness",
+		"weightloss",
+		"lose",
+		"weight",
+		"skinny",
+		"fat"
+	],
+	"author": "Jake Meyers",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^5.0.0"
+	}
 }

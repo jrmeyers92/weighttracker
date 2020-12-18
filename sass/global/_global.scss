@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+// #7851a9;
+// #ffc72c;
+// Variables
+$purple: #7851a9;
+$yellow: #ffc72c;
