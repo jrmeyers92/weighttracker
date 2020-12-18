@@ -8,6 +8,21 @@
 	align-items: center;
 	justify-content: center;
 
+	&__top {
+		align-items: center;
+		position: relative;
+		width: 100%;
+	}
+
+	&__exit {
+		font-size: 3rem;
+		position: absolute;
+		left: 0;
+		top: 0;
+		margin: 0.5rem 2rem;
+		cursor: pointer;
+	}
+
 	&__header {
 		text-align: center;
 		padding: 1rem;
@@ -17,7 +32,7 @@
 	}
 
 	&__inputs {
-		width: 50%;
+		width: 60%;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -36,5 +51,6 @@
 	&__button {
 		margin-bottom: 2rem;
 		margin-top: 1rem;
+		margin-bottom: 1rem;
 	}
 }
