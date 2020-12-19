@@ -48,9 +48,25 @@
 		width: 200px;
 	}
 
+	&__heightInput {
+		align-self: flex-start;
+		justify-self: flex-start;
+		text-align: left;
+	}
+
+	&__height {
+		width: 40px;
+		font-size: 1.3rem;
+		margin: 0 1rem;
+	}
+
 	&__button {
 		margin-bottom: 2rem;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
+	}
+
+	& span {
+		font-size: 1.3rem;
 	}
 }
